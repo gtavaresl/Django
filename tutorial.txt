@@ -1,0 +1,5 @@
+manage.py é um script que ajuda com a gestão do site. Com ele, podemos iniciar um servidor de web no nosso computador sem instalar nada, entre outras coisas.
+
+O arquivo settings.py contém a configuração do seu site.
+
+Lembra de quando falamos sobre um carteiro verificando onde entregar uma carta? O arquivo urls.py contém uma lista dos padrões usados por urlresolver.
