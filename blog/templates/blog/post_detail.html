@@ -9,7 +9,7 @@
                 {{ post.published_date }}
             </div>
         {% endif %}
+        <iframe src = {{ post.link }} width = "320" height = "195" frameborder="0" allowfullscreen></iframe>
         <p>{{ post.text|linebreaksbr }}</p>
-        <iframe src = {{ post.link }} width = "640" height = "390" frameborder="0" allowfullscreen></iframe>
     </div>
 {% endblock %}
