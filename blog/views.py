@@ -28,7 +28,7 @@ def post_new(request):
          if form.is_valid():
              post = form.save(commit=False)
              post.author = request.user
-             post.link = YouTube_Search(post.title)
+             post.link = None#YouTube_Search(post.title)
              post.published_date = timezone.now()
              post.save()
              return redirect('post_detail', pk=post.pk)
