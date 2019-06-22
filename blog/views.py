@@ -4,7 +4,7 @@ from .models import Post
 from .forms import PostForm
 from django.shortcuts import redirect
 import urllib.request
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 
 def YouTube_Search(textToSearch):
     query = urllib.parse.quote(textToSearch)
